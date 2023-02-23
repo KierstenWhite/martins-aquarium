@@ -1,0 +1,83 @@
+body {
+  background-color: #F5F5F4
+}
+
+header {
+  background-color: #1bb0d1;
+}
+
+h1 {
+  font-family: Optima, sans-serif;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  padding: 20px
+}
+
+h2 {
+  font-family: Optima, sans-serif;
+  font-size: 35px;
+  color: black;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columnOne {
+display: flex;
+flex-wrap: wrap;
+}
+
+.columnTwo {
+display: flex;
+flex-wrap: wrap;
+}
+
+.fishContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #F5F5F4;
+  flex-basis: 100%;
+}
+
+.fishTips {
+  font-family: Optima, sans-serif;
+  margin: 15px;
+}
+
+.harvesting {
+  font-family: Optima, sans-serif;
+  margin: 15px;
+}
+
+.fishDetails {
+  font-family: Optima, sans-serif;
+  font-size: 13.5px;
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 33%;
+  border-style: solid;
+  border-color: #1bb0d1;
+  border-width: 5px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  margin: 15px;
+}
+
+aside {
+  font-family: Optima, sans-serif;
+  margin: 15px;
+}
